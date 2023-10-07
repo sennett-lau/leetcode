@@ -18,7 +18,7 @@ func SingleNumber(nums []int) int {
 		}
 	}
 
-	for k, _ := range m {
+	for k := range m {
 		return k
 	}
 
